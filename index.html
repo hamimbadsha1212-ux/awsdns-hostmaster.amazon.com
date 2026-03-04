@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily News</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#d60000;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav{
+    background:#222;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+    padding:20px;
+}
+
+.news{
+    background:white;
+    padding:15px;
+    border-radius:5px;
+}
+
+.news img{
+    width:100%;
+    border-radius:5px;
+}
+
+.sidebar{
+    background:white;
+    padding:15px;
+    border-radius:5px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Daily News</h1>
+<p>Latest World & Local News</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">World</a>
+<a href="#">Politics</a>
+<a href="#">Technology</a>
+<a href="#">Sports</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div>
+<div class="news">
+<img src="https://picsum.photos/800/400">
+<h2>Breaking News Headline</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a sample news article for the website layout.</p>
+</div>
+
+<div class="news">
+<img src="https://picsum.photos/800/401">
+<h2>Technology News</h2>
+<p>New technology trends are emerging around the world. Stay updated with the latest tech news.</p>
+</div>
+
+<div class="news">
+<img src="https://picsum.photos/800/402">
+<h2>Sports Update</h2>
+<p>Latest sports updates and match highlights from around the world.</p>
+</div>
+</div>
+
+<div class="sidebar">
+<h3>Trending News</h3>
+<ul>
+<li>Global economy update</li>
+<li>New smartphone launch</li>
+<li>Football championship results</li>
+<li>AI technology growth</li>
+</ul>
+
+<h3>Categories</h3>
+<ul>
+<li>World</li>
+<li>Politics</li>
+<li>Technology</li>
+<li>Sports</li>
+<li>Entertainment</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Daily News Website</p>
+</footer>
+
+</body>
+</html>
